@@ -95,6 +95,8 @@ $ docker exec -it <ContainerID> /bin/bash ---> You are now inside the container 
 Username: admin
 Password: Paste the password copied from MobaXTerm
  ---> set new password ---> 'check' enable anonymous access ---> Next ---> Finish
+After this copy the nexus snapshot and nexus release url from the nexus gui from the left pane under browse and paste the url in pom.xml 
+file under distribution management.
 
 Goto MobaXTerm ---> Come out of the terminal ---> exit
 
