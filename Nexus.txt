@@ -95,6 +95,9 @@ $ docker exec -it <ContainerID> /bin/bash ---> You are now inside the container 
 Username: admin
 Password: Paste the password copied from MobaXTerm
  ---> set new password ---> 'check' enable anonymous access ---> Next ---> Finish
+After this in the pom.xml file give the url of maven release and maven snapshot. copy the url from the nexus gui. under left pane choose 
+browse and click on copy beside maven release and maven snapshot. copy the url of both and paste it pom.xml under distribution management.
+
 
 Goto MobaXTerm ---> Come out of the terminal ---> exit
 
